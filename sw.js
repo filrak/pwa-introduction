@@ -17,7 +17,7 @@ workbox.routing.registerRoute(
 // It's a good practice to keep different data types in different caches.
 // In this example we are creating new cache called 'html-cache' which will contain all html files
 workbox.routing.registerRoute(
-  /.*\.html$/,
+  '/',
   workbox.strategies.networkFirst({
     cacheName: 'html-cache'
   })
