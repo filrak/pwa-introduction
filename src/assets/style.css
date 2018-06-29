@@ -1,0 +1,46 @@
+body {
+  font-family: 'Verdana', sans-serif;
+}
+#app {
+  max-width: 600px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  border-bottom: 3px solid #4db986;
+  margin: 0 40px;
+  color: #4db986;
+}
+img {
+  max-height: 250px;
+}
+h2 {
+  font-size: 25px;
+  color: #445465;
+}
+.price {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+button {
+  color: white;
+  background: #4db986;
+  padding: 13px 40px;
+  border-radius: 27px;
+  text-transform: uppercase;
+  outline: none;
+  margin-top: 20px;
+  font-size: 15px;
+  border: none;
+  font-weight: bold;
+}
+button:hover {
+  box-shadow: 0 3px 15px 5px rgba(0, 0, 0, .1);
+}
+.offline-info {
+  color: red;
+  font-weight: bold;
+}

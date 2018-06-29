@@ -1,0 +1,13 @@
+{
+  "name": "Vue Storefront Stickers",
+  "short_name": "VStickers",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#4db986",
+  "description": "VStickers shop",
+  "icons": [{
+    "src": "dist/product-image.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }]
+}
