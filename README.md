@@ -2,7 +2,7 @@
 
 > A Vue.js project with very simple PWA capabilities and a looooooot of comments. It uses firebase endpoint for orders - don't break it so the others can use it ;)
 
-P.S: I ommited some good practices for the sake of simplicity. For example order data should be stored in indexeddb which can be accessed from your app and service worker. You should also catch errors in your code - always (so you should also have a notification for failed order) ;>
+P.S: I ommited some good practices for the sake of simplicity. Order data should be stored in indexeddb which can be accessed from your app and service worker. You should also catch errors in your code - always (so you should also have a notification for failed order etc.) ;>
 
 ## Build Setup
 
