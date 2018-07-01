@@ -1,6 +1,6 @@
 # Vue.js PWA introduction project
 
-> A Vue.js project with very simple PWA capabilities and a looooooot of comments. It uses firebase endpoint for orthers - don't break it so the others can use it ;)
+> A Vue.js project with very simple PWA capabilities and a looooooot of comments. It uses firebase endpoint for orders - don't break it so the others can use it ;)
 
 ## Build Setup
 
