@@ -4,6 +4,10 @@
 
 P.S: I ommited some good practices for the sake of simplicity. Order data should be stored in indexeddb which can be accessed from your app and service worker. You should also catch errors in your code - always (so you should also have a notification for failed order etc.) ;>
 
+## Useful links
+ 1. [Workbox](https://developers.google.com/web/tools/workbox/)
+ 2. [Offline cookbook - caching strategies](https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/)
+ 3. [Web app manifest](https://developers.google.com/web/fundamentals/web-app-manifest/)
 ## Build Setup
 
 ``` bash
