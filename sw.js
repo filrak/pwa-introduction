@@ -40,6 +40,7 @@ workbox.routing.registerRoute(
 
 // You can also store the JSON-like objects in indexedDB which is very suitable for this format of data.
 // The indexedDB is accessible through Service Worker in opposite to local storage and session storage
+// In this example we are still using standard cache to keep our product data
 workbox.routing.registerRoute(
   /.*\.json$/,
   workbox.strategies.networkFirst({
@@ -63,6 +64,7 @@ function placeOrder () {
   .then(data => console.log('Order placed'))
 }
 
+// Here we are just listening for the sync event and later reacting if the events tag is 'orderSync'
 // The sync event is fired once the connectivity is stable
 self.addEventListener('sync', event => {
   // Please note that the 'Notification' object is not accesible directly in a Service Worker since it;s bound to 'window' object. 
